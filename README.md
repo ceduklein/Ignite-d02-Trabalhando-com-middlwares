@@ -15,7 +15,7 @@ Tudo isso para cada usuário em específico. Além disso, dessa vez teremos um p
 
 ## Especificação dos Testes de Middlewares
 
-- [x] Deve ser possível encontrar um usuário pelo nome de usuário e passar através do request.user
+- [x] Deve ser possível encontrar um usuário pelo nome de usuário e passar através do `request.user`
 
 - [x] Não deve ser possível encontrar um usuário com nome de usuário inexistente.
 
@@ -33,9 +33,9 @@ Tudo isso para cada usuário em específico. Além disso, dessa vez teremos um p
 
 - [x] Não deve ser possível repassar usuário e tarefa pelo request quando a tarefa for inexistente.
 
-- [x] Deve ser possível encontrar um usuário pelo id informado como parâmetro da rota e repassar o mesmo pelo request.user.
+- [x] Deve ser possível encontrar um usuário pelo id informado como parâmetro da rota e repassar o mesmo pelo `request.user`.
 
-- [x] Não deve ser possível repassar o usuário pelo request.user quando o usuário for inexistente para o id informado.
+- [x] Não deve ser possível repassar o usuário pelo `request.user` quando o usuário for inexistente para o id informado.
 
 
 ## Executando a aplicação
